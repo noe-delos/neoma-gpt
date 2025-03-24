@@ -334,7 +334,7 @@ export default function Page() {
       {/* Calendly Popup Modal - Only render on client side and when rootElement is available */}
       {isClientSide && showCalendly && (
         <PopupModal
-          url="https://calendly.com/paul-ks-entreprise/30min"
+          url="https://calendly.com/louis-ks-entreprise/30min"
           rootElement={rootElementRef.current || document.body}
           onModalClose={() => setShowCalendly(false)}
           open={true}
